@@ -275,6 +275,26 @@ container {
 #loguito{
   display: none;
 }
+
+.menu-categorias span:hover{
+  font-weight: bold;
+  color: blue;
+}
+
+.opciones span:hover {
+  background-color: #f0a83e;
+  color: red;
+}
+
+.caja-productos img:hover {
+  -webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+
 @media screen and (max-width: 375px ){
   .nav{
       display: none;
